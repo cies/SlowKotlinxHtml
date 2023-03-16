@@ -1,5 +1,5 @@
 plugins {
-    id 'org.jetbrains.kotlin.multiplatform' version '1.8.0'
+    id 'org.jetbrains.kotlin.multiplatform' version 'KOTLIN_VERSION'
 }
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ kotlin {
     sourceSets {
         jvmMain {
             dependencies {
-                implementation("org.jetbrains.kotlinx:kotlinx-html:0.8.0")
+                implementation("org.jetbrains.kotlinx:kotlinx-html:KOTLINXHTML_VERSION")
             }
         }
     }
