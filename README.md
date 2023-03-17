@@ -34,7 +34,6 @@ Some [Kotlin Gradle plugin](https://plugins.gradle.org/plugin/org.jetbrains.kotl
 
 Some [kotlinx.html](https://central.sonatype.com/artifact/org.jetbrains.kotlinx/kotlinx-html/0.8.1/versions) versions:
 
-    0.8.1
     0.8.0
     0.7.5
     0.7.4
@@ -46,3 +45,5 @@ Other parameters worth tweaking:
   * Use [our hacked version of the kotlinx-html-jvm](https://github.com/Stager-Software/kotlinx.html/) with the exception handling commented out by commenting out the dependency in `build.gradle.template`
   * Change the Kotlin compiler args in `build.gradle.template`
   * Reduce the max depth of eDSL nesting, this is done on the `reduce-nesting` branch
+
+See some results I got tweaking various parameters on my machine in `RESULTS.md`
