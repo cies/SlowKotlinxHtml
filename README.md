@@ -20,6 +20,7 @@ It is advisable to run the benchmark several times and report average.
 
 Some [Kotlin Gradle plugin](https://plugins.gradle.org/plugin/org.jetbrains.kotlin.jvm) versions (conguate with Kotlin compiler versions):
 
+    1.8.20-RC
     1.8.20-Beta
     1.8.10
     1.8.0

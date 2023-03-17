@@ -20,7 +20,7 @@ kotlin {
         implementation("org.jetbrains.kotlinx:kotlinx-html:KOTLINXHTML_VERSION")
         
         // only works for kotlinx-html version 0.8.0
-        //implementation files("localjar/kotlinx-html-jvm-0.8.0-HACKED.jar")
+        implementation files("localjar/kotlinx-html-jvm-0.8.0-HACKED.jar")
       }
     }
   }
@@ -31,8 +31,8 @@ kotlin {
 // lambdas=indy - Uses invokedynamic for lambdas instead of generating explicit classes
 // use-fast-jar-file-system - Uses an experimental implementation for faster compilation
 
-//tasks.named('compileKotlinJvm', org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask.class) {
-//  compilerOptions {
-//    freeCompilerArgs.addAll("-Xuse-k2", "-Xbackend-threads=0", "-Xuse-fast-jar-file-system", "-Xlambdas=indy")
-//  }
-//}
+tasks.named('compileKotlinJvm', org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask.class) {
+  compilerOptions {
+    freeCompilerArgs.addAll("-Xuse-k2", "-Xbackend-threads=0", "-Xuse-fast-jar-file-system", "-Xlambdas=indy")
+  }
+}
