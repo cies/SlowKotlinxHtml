@@ -14,6 +14,6 @@ sed -i "s/KOTLINXHTML_VERSION/$2/" build.gradle
 
 printf "\nrun, realCPU, userCPU, peakMEM\n"
 for i in {0..8}; do
-  ./gradlew clean --console=plain --quiet || break;
-  /usr/bin/time -f "$i, %E, %U, %M" ./gradlew compileKotlinJvm --console=plain --quiet || break;
+  ./gradlew clean --console=plain --quiet --no-daemon || break;
+  /usr/bin/time -f "$i, %E, %U, %M" ./gradlew compileKotlinJvm --console=plain --quiet --no-daemon || break;
 done
