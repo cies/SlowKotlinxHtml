@@ -13,37 +13,7 @@ private object Foo8 {
                 div {
                     +"Dasda"
                     div {
-                        +"Dasda"
-                        div {
-                            +"Dasda"
-                            div {
-                                +"Dasda"
-                                div {
-                                    +"Dasda"
-                                    div {
-                                        +"Dasda"
-                                        div {
-                                            +"Dasda"
-                                            div {
-                                                +"Dasda"
-                                                div {
-                                                    +"Dasda"
-                                                    div {
-                                                        +"Dasda"
-                                                        div {
-                                                            +"Dasda"
-                                                            div {
-                                                                +"Dasda"
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                        foo_1()
                     }
                 }
             }
@@ -53,38 +23,92 @@ private object Foo8 {
                     +"Dasda"
                     div {
                         +"Dasda"
-                        div {
-                            +"Dasda"
-                            div {
-                                +"Dasda"
-                                div {
-                                    +"Dasda"
-                                    div {
-                                        +"Dasda"
-                                        div {
-                                            +"Dasda"
-                                            div {
-                                                +"Dasda"
-                                                div {
-                                                    +"Dasda"
-                                                    div {
-                                                        +"Dasda"
-                                                        div {
-                                                            +"Dasda"
-                                                            div {
-                                                                +"Dasda"
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                        foo_2()
                     }
                 }
+            }
+        }
+    }
+
+    fun FlowContent.foo_1() {
+        +"Dasda"
+        div {
+            +"Dasda"
+            div {
+                +"Dasda"
+                div {
+                    +"Dasda"
+                    div {
+                        +"Dasda"
+                        foo_1_1()
+                    }
+                }
+            }
+        }
+    }
+
+    fun FlowContent.foo_1_1(){
+        div {
+            +"Dasda"
+            div {
+                +"Dasda"
+                div {
+                    +"Dasda"
+                    div {
+                        +"Dasda"
+                        foo_1_1_1()
+                    }
+                }
+            }
+        }
+    }
+
+    fun FlowContent.foo_1_1_1() {
+        div {
+            +"Dasda"
+            div {
+                +"Dasda"
+            }
+        }
+    }
+
+    fun FlowContent.foo_2() {
+        div {
+            +"Dasda"
+            div {
+                +"Dasda"
+                div {
+                    +"Dasda"
+                    div {
+                        +"Dasda"
+                        foo_2_1()
+                    }
+                }
+            }
+        }
+    }
+
+    fun FlowContent.foo_2_1() {
+        div {
+            +"Dasda"
+            div {
+                +"Dasda"
+                div {
+                    +"Dasda"
+                    div {
+                        +"Dasda"
+                        foo_2_1_1()
+                    }
+                }
+            }
+        }
+    }
+
+    fun FlowContent.foo_2_1_1() {
+        div {
+            +"Dasda"
+            div {
+                +"Dasda"
             }
         }
     }
@@ -98,91 +122,119 @@ private object Foo8 {
                     +"ASdas"
                     div {
                         +"Asda"
-                        div {
-                            +"ASdasd"
-                            div {
-                                +"asdasd"
-                                div {
-                                    +"asdasda"
-                                    div {
-                                        +"Asdasda"
-                                        div {
-                                            +"Asd"
-                                            div {
-                                                +"ASdasdas"
-                                            }
-                                        }
-                                    }
-                                }
-                                +"asdasd"
-                                div {
-                                    +"asdasda"
-                                    div {
-                                        +"Asdasda"
-                                        div {
-                                            +"Asd"
-                                            div {
-                                                +"ASdasdas"
-                                            }
-                                        }
-                                    }
-                                }
-                                +"asdasd"
-                                div {
-                                    +"asdasda"
-                                    div {
-                                        +"Asdasda"
-                                        div {
-                                            +"Asd"
-                                            div {
-                                                +"ASdasdas"
-                                            }
-                                        }
-                                    }
-                                }
-                                +"asdasd"
-                                div {
-                                    +"asdasda"
-                                    div {
-                                        +"Asdasda"
-                                        div {
-                                            +"Asd"
-                                            div {
-                                                +"ASdasdas"
-                                            }
-                                        }
-                                    }
-                                }
-                                +"asdasd"
-                                div {
-                                    +"asdasda"
-                                    div {
-                                        +"Asdasda"
-                                        div {
-                                            +"Asd"
-                                            div {
-                                                +"ASdasdas"
-                                            }
-                                        }
-                                    }
-                                }
-                                +"asdasd"
-                                div {
-                                    +"asdasda"
-                                    div {
-                                        +"Asdasda"
-                                        div {
-                                            +"Asd"
-                                            div {
-                                                +"ASdasdas"
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                        didntFinishInOneMinute_1()
                     }
                 }
+            }
+        }
+    }
+
+    fun FlowContent.didntFinishInOneMinute_1() {
+        div {
+            +"ASdasd"
+            div {
+                +"asdasd"
+                div {
+                    +"asdasda"
+                    div {
+                        +"Asdasda"
+                        didntFinishInOneMinute_1_1()
+                    }
+                }
+                +"asdasd"
+                div {
+                    +"asdasda"
+                    div {
+                        +"Asdasda"
+                        didntFinishInOneMinute_1_2()
+                    }
+                }
+                +"asdasd"
+                div {
+                    +"asdasda"
+                    div {
+                        +"Asdasda"
+                        didntFinishInOneMinute_1_3()
+                    }
+                }
+                +"asdasd"
+                div {
+                    +"asdasda"
+                    div {
+                        +"Asdasda"
+                        didntFinishInOneMinute_1_4()
+                    }
+                }
+                +"asdasd"
+                div {
+                    +"asdasda"
+                    div {
+                        +"Asdasda"
+                        didntFinishInOneMinute_1_5()
+                    }
+                }
+                +"asdasd"
+                div {
+                    +"asdasda"
+                    div {
+                        +"Asdasda"
+                        didntFinishInOneMinute_1_6()
+                    }
+                }
+            }
+        }
+    }
+
+    fun FlowContent.didntFinishInOneMinute_1_1() {
+        div {
+            +"Asd"
+            div {
+                +"ASdasdas"
+            }
+        }
+    }
+
+    fun FlowContent.didntFinishInOneMinute_1_2() {
+        div {
+            +"Asd"
+            div {
+                +"ASdasdas"
+            }
+        }
+    }
+
+    fun FlowContent.didntFinishInOneMinute_1_3() {
+        div {
+            +"Asd"
+            div {
+                +"ASdasdas"
+            }
+        }
+    }
+
+    fun FlowContent.didntFinishInOneMinute_1_4() {
+        div {
+            +"Asd"
+            div {
+                +"ASdasdas"
+            }
+        }
+    }
+
+    fun FlowContent.didntFinishInOneMinute_1_5() {
+        div {
+            +"Asd"
+            div {
+                +"ASdasdas"
+            }
+        }
+    }
+
+    fun FlowContent.didntFinishInOneMinute_1_6() {
+        div {
+            +"Asd"
+            div {
+                +"ASdasdas"
             }
         }
     }
